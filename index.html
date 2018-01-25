@@ -28,14 +28,20 @@
 
     <!-- Custom Fonts from Google -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    
+    <style type="text/css">
+        body {
+            position: relative;
+        }
+    </style>
+	
+	
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#siteNav" data-offset="10;">
 
     <!-- Navigation -->
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div id= "home" class="container">
             <!-- Logo and responsive toggle -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -52,12 +58,12 @@
             <!-- Navbar links -->
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active">
+                    <li class="">
                         <a href="#">Home</a>
                     </li>
                     
 					<li>
-                        <a href="#About">About Us</a>
+                        <a href="#about">About Us</a>
                     </li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Events <span class="caret"></span></a>
@@ -83,7 +89,7 @@
 	<!-- Header -->
     <header>
         <div class="header-content" >
-            <div class="header-content-inner">
+            <div class="header-content-inner" >
                 <h1>IEEE IEM STUDENTS BRANCH</h1>
                <!--  <p>Suggest a Tagline for IEEE IEM STUDENTS BRANCH</p> -->
                 <a href="https://www.ieee.org/membership_services/membership/join/index.html?WT.mc_id=hc_join" target="_blank" class="btn btn-primary btn-lg">Join IEEE</a>
@@ -92,16 +98,16 @@
     </header>
 	
 	  <!-- about us section begin -->
-	  <p5><a name="About"></a></p5>
+	  <!-- <p5><a name="about"></a></p5> -->
       <section id="section-intro-iem" background: "#8e9eab;" /* fallback for old browsers */
   
-        <div class="container" id="iem">
-          <div class="row">
+        <div  class="container" id="iem" style="height:100%">
+          <div class="row" id="about">
             <div class="col-md-12 text-center wow fadeInUp back" >
 			
               
-              <h2><span style="color:orange"> About IEM IEEE Students Branch</span> </h2>
-              <p class="lead" style="text-align:justify">The IEEE Student Branch of Institute of Engineering and Management (IEM), Kolkata is one of the most active student branches of the IEEE Kolkata section. The Branch is enthusiastic in carrying out several events for the student members to provide them the facilities in the relevant fields necessary. It aims at organizing events to develop the student's social as well as professional skills and workshops from famous companies that offer adequate knowledge needed for stepping into the industrial world.
+             <div  height="50px"> <h2><span style="color:orange;"> About IEM IEEE Students Branch</span> </h2></div>
+              <p class="lead" style="text-align:justify">The IEEE Student Branch of Institute of Engineering and Management (IEM), Kolkata is one of the most active student branches of the IEEE Kolkata section. The Branch is enthusiastic in carrying out several events for the student members to provide them the facilities in the relevant fields necessary. It aims at organizing events to develop the student's social as well as professional skills and workshops from famous companies that offer adequate knowledge needed for stepping into the industrial world.</p>
  </p>
               <div class="spacer-single"></div>
             </div>
@@ -138,13 +144,13 @@ More than 50 papers has been published in these conferences by IEM students.
 
 	<!-- Intro Section -->
 	
- <div class="boxwa" id="boxwa">
+ <div class="boxwa" >
 
-<div class= "event-header"><h9>TAP</h9></div>
+<div  class= "event-header"><h9>TAP</h9></div>
 <div class="container" style="background-color:white; color:black; width:100%; height:100%;text-align:justify" >
-	<div class="row"  >
-	<p5><a name="Past"></a></p5>
-		<div class="col-md-6" padding-right="0px" >
+	<div class="row" id="Past" >
+	<!-- <p5><a name="Past"></a></p5> -->
+		<div  class="col-md-6" padding-right="0px"  >
 		<h2><br><br>Technology Awareness Program</h2>
 		<p>The Tap (Echnology awareness programe) 2017, was organised by IEEE which is worlds largest technical professional organisation for achievements of technology. <br>A techo-corporate enterprise which serves technical professionals and students who are looking to both faster working relationships and gain access to the latest technical researches and world changing initiatives in science and technology.
 
@@ -251,12 +257,12 @@ TAP 2017 provided opportunity to interact with highly esteemed delegates and pro
 </div>
 	
 	
- <div class="boxwa" height="100%">
+ <div  class="boxwa" height="100%">
 <div class= "event-header"><h9>CSIS'18</h9></div>
 
 <div class="container" style="background-color:white; color:black;width:100%;text-align:justify;" >
 
-	<div class="row" >
+	<div class="row" id="Upcoming">
 	
 <p5><a name="Upcoming"></a></p5>
 		<div class="col-md-6" style="height:100%;margin:0px;padding:0px; ">
@@ -339,7 +345,7 @@ TAP 2017 provided opportunity to interact with highly esteemed delegates and pro
 </div>
 
 	<!-- Content 1 -->
-	<div style="text-align:center;font-size:30px;background-color:yellow"> <p5><a name="Team"></a>OUR AMAZING TEAM</span></p5></div>
+	<div style="text-align:center;font-size:30px;background-color:yellow;height:50px;" id="Team"> <p5><a name="Team"></a>OUR AMAZING TEAM</span></p5></div>
     <section class="content">
 	
         <div class="container">
