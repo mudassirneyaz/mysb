@@ -574,3 +574,16 @@ h9{
 	width:100wh;
 	
 }
+
+/* ==============================social-media============================ */
+
+
+.social-media a{
+	color:white;
+
+}
+
+.social-media a:hover{
+	color:blue;
+	
+}
