@@ -592,3 +592,24 @@ h9{
 	color:blue;
 	
 }
+
+/* ======================================================parallax============== */
+
+#section-intro-iem{
+	    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/bg2.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	
+	    background-attachment: fixed;
+   
+    background-repeat: no-repeat;
+
+}
