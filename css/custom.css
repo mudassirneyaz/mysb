@@ -593,6 +593,17 @@ h9{
 	
 }
 
+
+.social-media-fone a{
+	color:white;
+
+}
+
+.social-media-fone a:hover{
+	color:blue;
+	
+}
+
 /* ======================================================parallax============== */
 
 #section-intro-iem{
