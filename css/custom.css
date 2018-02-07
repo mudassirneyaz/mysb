@@ -624,3 +624,17 @@ h9{
     background-repeat: no-repeat;
 
 }
+
+.btn-line{
+	padding:10px;
+	border:1px solid white ;
+	border-radius:0px;
+}
+a >.btn-line{
+	color:white;
+}
+.btn-line:hover{
+	color:green;
+	background-color:white;
+	font-weight:bold;
+}
