@@ -638,3 +638,7 @@ a >.btn-line{
 	background-color:white;
 	font-weight:bold;
 }
+
+.extraClass{ 
+     font-size:30px; 
+}
